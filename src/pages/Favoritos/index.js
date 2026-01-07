@@ -20,7 +20,7 @@ function Favoritos(){
         localStorage.setItem('@primeflix', JSON.stringify(filtroFilmes))
         toast.success('Filme removido com sucesso!')
     }
-
+    
     return(
         <div className='meus-filmes'>
             <h1>Minha Lista de filmes</h1>
