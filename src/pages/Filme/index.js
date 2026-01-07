@@ -48,7 +48,7 @@ function Filme (){
         if(hasFilme) {
             toast.warn('Esse filme já está na sua lista!')
             return;
-        } 
+        }
 
         filmesSalvos.push(filme);
         localStorage.setItem('@primeflix', JSON.stringify(filmesSalvos))
