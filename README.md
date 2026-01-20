@@ -27,17 +27,17 @@ Acesse a aplicação online: [valperflix-react.netlify.app](https://valperflix-r
 ### Página Principal
 Visualize os filmes mais populares do momento em destaque.
 
-![Página Principal](./assets/screenshots/home.png)
+![Página Principal](home.png)
 
 ### Detalhes do Filme
 Informações completas sobre cada filme, incluindo sinopse, avaliação e opções para salvar nos favoritos e assistir ao trailer.
 
-![Detalhes do Filme](./assets/screenshots/movie-details.png)
+![Detalhes do Filme](movie-details.png)
 
 ### Meus Filmes
 Acesse sua lista personalizada de filmes favoritos salvos.
 
-![Meus Filmes](./assets/screenshots/favorites.png)
+![Meus Filmes](favorites.png)
 
 ## 🚀 Tecnologias Utilizadas
 
