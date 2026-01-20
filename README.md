@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# 🎬 Primeflix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Deploy Status](https://img.shields.io/badge/deploy-active-success)](https://valperflix-react.netlify.app/)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## Available Scripts
+> Uma aplicação web moderna para descobrir e explorar os filmes mais populares do momento.
 
-In the project directory, you can run:
+## 📋 Sobre o Projeto
 
-### `npm start`
+O **Primeflix** é uma aplicação web desenvolvida em React que consome a API do [The Movie Database (TMDb)](https://www.themoviedb.org/) para exibir informações atualizadas sobre filmes populares. O projeto foi criado como um estudo prático de React, explorando conceitos fundamentais como componentes, hooks, rotas e consumo de APIs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎥 Listagem de filmes populares e em destaque
+- 🔍 Visualização detalhada de cada filme (sinopse, avaliação, data de lançamento)
+- ⭐ Sistema de favoritos para salvar seus filmes preferidos
+- 📱 Interface responsiva e moderna
+- 🚀 Performance otimizada
 
-### `npm test`
+## 🖥️ Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acesse a aplicação online: [valperflix-react.netlify.app](https://valperflix-react.netlify.app/)
 
-### `npm run build`
+## 🚀 Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [React Router DOM](https://reactrouter.com/) - Roteamento da aplicação
+- [Axios](https://axios-http.com/) - Cliente HTTP para consumo da API
+- [TMDb API](https://www.themoviedb.org/documentation/api) - API de dados de filmes
+- CSS3 - Estilização
+- [Netlify](https://www.netlify.com/) - Deploy e hospedagem
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Instalação e Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `npm run eject`
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Passo a passo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone o repositório**
+```bash
+git clone https://github.com/LucasValpereiro/primeflix.git
+cd primeflix
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Instale as dependências**
+```bash
+npm install
+# ou
+yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Configure a API do TMDb**
 
-## Learn More
+Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API:
+```env
+REACT_APP_TMDB_API_KEY=sua_chave_aqui
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para obter uma chave da API, cadastre-se em [themoviedb.org](https://www.themoviedb.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Execute o projeto**
+```bash
+npm start
+# ou
+yarn start
+```
 
-### Code Splitting
+A aplicação estará disponível em `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Estrutura do Projeto
 
-### Analyzing the Bundle Size
+```
+primeflix/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/          # Páginas da aplicação
+│   ├── services/       # Configuração e chamadas da API
+│   ├── routes.js       # Configuração de rotas
+│   ├── App.js          # Componente principal
+│   └── index.js        # Entry point
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠️ Scripts Disponíveis
 
-### Making a Progressive Web App
+```bash
+npm start          # Inicia o servidor de desenvolvimento
+npm test           # Executa os testes
+npm run build      # Gera build de produção
+npm run eject      # Ejeta as configurações do Create React App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎯 Aprendizados
 
-### Advanced Configuration
+Este projeto foi desenvolvido com foco no aprendizado de:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Componentização em React
+- Gerenciamento de estado com hooks (useState, useEffect)
+- Roteamento com React Router
+- Consumo de APIs REST
+- LocalStorage para persistência de dados
+- Deploy de aplicações React
 
-### Deployment
+## 🤝 Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-### `npm run build` fails to minify
+1. Fork o projeto
+2. Crie sua branch de feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+**Lucas Valpereiro**
+
+- GitHub: [@LucasValpereiro](https://github.com/LucasValpereiro)
+- LinkedIn: [Lucas Valpereiro](https://linkedin.com/in/lucas-valpereiro)
+
+## 🙏 Agradecimentos
+
+- [The Movie Database (TMDb)](https://www.themoviedb.org/) pela API gratuita
+- [Create React App](https://create-react-app.dev/) pelo boilerplate
+- Comunidade React pelo suporte e documentação
+
+---
+
+⭐ Se este projeto te ajudou de alguma forma, considere dar uma estrela no repositório!
