@@ -145,7 +145,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **Lucas Valpereiro**
 
 - GitHub: [@LucasValpereiro](https://github.com/LucasValpereiro)
-- LinkedIn: [Lucas Valpereiro](https://linkedin.com/in/lucas-valpereiro)
+- LinkedIn: [Lucas Valpereiro](https://www.linkedin.com/in/lucas-valpereiro-6876111b5)
 
 ## 🙏 Agradecimentos
 
