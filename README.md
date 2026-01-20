@@ -22,6 +22,23 @@ O **Primeflix** é uma aplicação web desenvolvida em React que consome a API d
 
 Acesse a aplicação online: [valperflix-react.netlify.app](https://valperflix-react.netlify.app/)
 
+## 📸 Screenshots
+
+### Página Principal
+Visualize os filmes mais populares do momento em destaque.
+
+![Página Principal](./assets/screenshots/home.png)
+
+### Detalhes do Filme
+Informações completas sobre cada filme, incluindo sinopse, avaliação e opções para salvar nos favoritos e assistir ao trailer.
+
+![Detalhes do Filme](./assets/screenshots/movie-details.png)
+
+### Meus Filmes
+Acesse sua lista personalizada de filmes favoritos salvos.
+
+![Meus Filmes](./assets/screenshots/favorites.png)
+
 ## 🚀 Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
